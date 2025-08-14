@@ -1,6 +1,6 @@
-Online Code Compiler
+# 🚀 Online Code Compiler
 
-An **online code compiler** built with **React, Docker, and Judge0 API** that supports multiple programming languages including **C++, Java, JavaScript, and Python**. Run your code instantly in a web-based environment! ⚡
+An online code compiler built with **React**, **Docker**, and **Judge0 API** that supports multiple programming languages including **C++**, **Java**, **JavaScript**, and **Python**. Run your code instantly in a web-based environment! ⚡
 
 ---
 
@@ -14,84 +14,84 @@ An **online code compiler** built with **React, Docker, and Judge0 API** that su
 ---
 
 ## 📢 Quick Access
-
-🔗 **Pull the Docker image:**
+🔗 **Pull the Docker image**:
 ```sh
-docker run yashborkar/code-compiler:latest
-🔗 Check out the live project: <a rel="noopener noreferrer" href="https://compilespacee.vercel.app">Live Demo</a>
+docker run himanshupatil62/code-compiler:latest
+```
 
-🛠️ Installation & Setup
-1️⃣ Clone the Repository
-sh
-Copy
-Edit
+🔗 **Check out the live project**: [Live Demo](https://compilespacee.vercel.app)
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```sh
 git clone https://github.com/himanshupatil62/Code-Compiler-Judge0.git
 cd Code-Compiler-Judge0
-2️⃣ Install Dependencies
-sh
-Copy
-Edit
+```
+
+### 2️⃣ Install Dependencies
+```sh
 npm install
-3️⃣ Add Your Judge0 API Key
-In CodeCompiler.jsx, replace the Judge0 API key:
+```
 
-env
-Copy
-Edit
+### 3️⃣ Add Your Judge0 API Key
+In `CodeCompiler.jsx`, replace the Judge0 API key:
+```env
 "X-RapidAPI-Key": "your_api_key_here"
-4️⃣ Run the Project
-sh
-Copy
-Edit
+```
+
+### 4️⃣ Run the Project
+```sh
 npm run dev
-The app will be live at http://localhost:5173 🚀
+```
+The app will be live at **http://localhost:5173** 🚀
 
-📌 How to Use?
-Select a programming language.
+---
 
-Write or paste your code in the editor.
+## 📌 How to Use?
+1. Select a programming language.  
+2. Write or paste your code in the editor.  
+3. Click **"Run"** to execute the code.  
+4. View the output instantly!  
 
-Click "Run" to execute the code.
+---
 
-View the output instantly!
+## 💡 Technologies Used
+- **Frontend:** React, CSS  
+- **API:** Judge0 API  
+- **Deployment:** Docker, Vercel  
 
-💡 Technologies Used
-Frontend: React, CSS
+---
 
-API: Judge0 API
-
-Deployment: Docker, Vercel
-
-🤝 Contributing
+## 🤝 Contributing
 Want to improve this project? Follow these steps:
 
-Fork the repository.
-
-Clone it locally:
-
-sh
-Copy
-Edit
+### 1️⃣ Fork the repository.  
+### 2️⃣ Clone it locally:
+```sh
 git clone https://github.com/himanshupatil62/Code-Compiler-Judge0.git
-Create a new branch:
+```
 
-sh
-Copy
-Edit
+### 3️⃣ Create a new branch:
+```sh
 git checkout -b feature-branch
-Make your changes & commit:
+```
 
-sh
-Copy
-Edit
+### 4️⃣ Make your changes & commit:
+```sh
 git commit -m "Added new feature"
-Push changes:
+```
 
-sh
-Copy
-Edit
+### 5️⃣ Push changes:
+```sh
 git push origin feature-branch
-Open a Pull Request on GitHub.
+```
 
-🔥 Star this repo ⭐ if you like this project! 🚀
-💻 Maintained by Himanshu Patil
+### 6️⃣ Open a Pull Request on GitHub.
+
+---
+
+🔥 **Star this repo ⭐ if you like this project!** 🚀  
+💻 **Maintained by [Himanshu Patil](https://github.com/himanshupatil62)**
